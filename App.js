@@ -10,17 +10,15 @@ export default function App() {
     <View style={styles.container}>
       <View style={styles.header}>
         <text style={styles.greeting}>Bom dia, aluno!</text>
-        <View style={styles.boxInput}>
+    <View style={styles.boxInput}>
 
-          <input
+          <TextInput
             style={styles.input}
             placeholder='Pesquisar...'
           
         
             />
           </View>
-        <View style={styles.boxList}>
-        </View>
       </View>
     </View>
   );
@@ -30,11 +28,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     alignItems: 'center',
-    backgroundColor: '#fff',
+    backgroundColor: '#DDDD',
   },
   header: {
     width: '100%',
-    height: Dimensions.get('window').height/6,
+    height: Dimensions.get('window').height/11,
     backgroundColor: '#BC72DE',
     paddingHorizontal: 20,
     justifyContent: 'center',
@@ -42,10 +40,18 @@ const styles = StyleSheet.create({
   greeting:{
     fontSize: 20,
     color: '#FFF',
-    marginTop: 20,
+    marginTop: 100,
   },
   boxInput:{
-    width: '80%',
+    width: '90%',
+    marginTop: 20,
+    marginLeft: 20,
+  },
+  input: {
+    borderRadius: 3,
+    borderColor: 'white',
+    height: 30,
+    backgroundColor: 'white',
   },
   //boxList:{
     //flex: 1,
