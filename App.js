@@ -9,7 +9,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <text style={styles.greeting}>Bom dia, aluno!</text>
+        <Text style={styles.greeting}>Bom dia, aluno!</Text>
     <View style={styles.boxInput}>
 
           <TextInput
