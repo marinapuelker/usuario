@@ -58,4 +58,6 @@ const styles = StyleSheet.create({
    // width: '100%',
     //backgroundColor: 'red',
   //},
+
+  //olaaaaaaa
 });
