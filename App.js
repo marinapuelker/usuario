@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#BC72DE',
     paddingHorizontal: 20,
     justifyContent: 'center',
+    boxShadow: '0px 8px 10px rgba(0, 0, 0, 0.2)',
   },
   boxInput:{
     width: '90%',
@@ -47,10 +48,4 @@ const styles = StyleSheet.create({
     marginTop: 100,
     padding: 21,
   },
-  //boxList:{
-    //flex: 1,
-   // width: '100%',
-    //backgroundColor: 'red',
-  //},
-
 });
